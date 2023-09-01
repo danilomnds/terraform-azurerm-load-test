@@ -29,8 +29,7 @@ module "<lt-system-env-001>" {
   source = "git::https://github.com/danilomnds/terraform-azurerm-load-test?ref=v1.0.0" 
   name = "<lt-system-env-001>"
   location = "<your-region>"
-  resource_group_name = "<resource-group>"
-  descriptio = "description"
+  resource_group_name = "<resource-group>"  
   azure_ad_groups = ["group id 1","group id 2"]
   tags = {
     key1 = "value1"
