@@ -20,7 +20,7 @@ Note: The `?ref=***` refers a tag on the git module repo.
 
 ## Important note
 
-This module grantees the role "Reader" for the azure AD groups listed using the var azure_ad_groups.
+This module grantees the role "Load Test Contributor" for the azure AD groups listed using the var azure_ad_groups.
 
 ## Use case
 

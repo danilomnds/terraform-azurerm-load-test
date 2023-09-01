@@ -27,7 +27,7 @@ resource "azurerm_role_assignment" "load_test_reader" {
     if var.azure_ad_groups != []
   }
   scope                = azurerm_load_test.load_test.id
-  role_definition_name = "Reader"
+  role_definition_name = "Load Test Contributor"
   principal_id         = each.value
   lifecycle {
     ignore_changes = [
